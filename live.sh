@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # rtmp key
-key="key"
+key="your_key"
 # rtmp ip
-ip="livego"
+ip="your_livego"
 # resolution
 res="1280x720"
 # framerate
