@@ -7,7 +7,7 @@ Type=simple
 Restart=always
 RestartSec=1
 User=pi
-ExecStart=/home/pi/livego/livego                                                                                                                                                                       
+ExecStart=livego                                                                                                                                                                      
 
 [Install]
 WantedBy=multi-user.target
