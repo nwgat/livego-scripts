@@ -6,8 +6,8 @@ StartLimitIntervalSec=0
 Type=simple
 Restart=always
 RestartSec=1
-User=pi
-ExecStart=/usr/bin/bash /home/pi/live.sh
+User=live
+ExecStart=/usr/bin/bash /home/live/livego-scripts/live.sh
 
 [Install]
 WantedBy=multi-user.target
